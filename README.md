@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Service-Mesh/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Mesh?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Service-Mesh/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Service-Mesh?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Mesh/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Service-Mesh?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Mesh/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Service-Mesh?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Service-Mesh/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -63,118 +63,118 @@ The following commercial solutions provide fully managed infrastructure, global 
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source service meshes, L4/L7 service proxies, ingress controllers, and API gateways. **Sorted by GitHub Stars (Descending):**
+Curated open-source service meshes, L4/L7 service proxies, ingress controllers, and API gateways. **Sorted by GitHub_Stars (Descending):**
 
-### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
-* **GitHub Stars**: ~78,000+ | **License**: Apache-2.0 | **Primary Language**: Go
+### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
+* **GitHub_Stars**: ~78,000+ | **License**: Apache-2.0 | **Primary Language**: Go
 * **Architecture**: Modular, memory-safe web server and reverse proxy with native HTTP/1.1, HTTP/2, and HTTP/3 support.
 * **Key Features**: **Automatic HTTPS by default** via Let's Encrypt / ZeroSSL, dynamic JSON configuration API, human-readable Caddyfile format, active and passive health checking, and zero-downtime config reloads.
 * **Best For**: Developers seeking zero-effort TLS management and fast reverse proxying for standalone hosts or lightweight container stacks.
 
-### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
-* **GitHub Stars**: ~65,200+ | **License**: MIT | **Primary Language**: Go
+### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
+* **GitHub_Stars**: ~65,200+ | **License**: MIT | **Primary Language**: Go
 * **Architecture**: Event-driven cloud-native reverse proxy and ingress controller with real-time dynamic service discovery.
 * **Key Features**: Auto-discovers routing rules from Docker, Kubernetes CRDs / Gateway API, Consul, and etcd without service restarts. Built-in Let's Encrypt automation (including wildcard certificates), circuit breakers, canary deployments, and visual dashboard.
 * **Best For**: Microservice platforms and Kubernetes clusters that scale dynamically and require zero-touch route configuration.
 
-### 3. [Kong Gateway OSS](https://github.com/Kong/kong) [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
-* **GitHub Stars**: ~44,200+ | **License**: Apache-2.0 | **Primary Language**: Lua / OpenResty / C
+### 3. [Kong Gateway OSS](https://github.com/Kong/kong) [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
+* **GitHub_Stars**: ~44,200+ | **License**: Apache-2.0 | **Primary Language**: Lua / OpenResty / C
 * **Architecture**: High-performance API Gateway and AI Gateway built on NGINX and LuaJIT.
 * **Key Features**: Sub-millisecond routing latency, 95+ community and official plugins (OIDC, rate limiting, HMAC, Prometheus, Datadog), AI gateway routing with token-aware rate limiting, and GitOps-ready declarative configuration via `decK`.
 * **Best For**: Enterprise API management, developer portals, and microservice traffic mediation requiring an extensive plugin catalog.
 
-### 4. [Istio](https://github.com/istio/istio) [![GitHub stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
-* **GitHub Stars**: ~38,400+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Go / C++
+### 4. [Istio](https://github.com/istio/istio) [![GitHub_Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
+* **GitHub_Stars**: ~38,400+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Go / C++
 * **Architecture**: Enterprise-grade service mesh utilizing Envoy as sidecars or Istio Ambient (sidecarless ztunnel L4 / waypoint L7) data plane.
 * **Key Features**: Transparent mutual TLS (mTLS) with SPIFFE/SPIRE cryptographic identities, rich traffic shifting (canary, blue-green, A/B), fault injection, distributed tracing (OpenTelemetry, Jaeger), and Kubernetes Gateway API integration.
 * **Best For**: Large-scale multi-cluster Kubernetes deployments requiring rigorous Zero-Trust compliance and advanced traffic steering.
 
-### 5. [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) [![GitHub stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)
-* **GitHub Stars**: ~34,400+ | **License**: MIT | **Primary Language**: JavaScript / Python / NGINX
+### 5. [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) [![GitHub_Stars](https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=social&color=white)](https://github.com/NginxProxyManager/nginx-proxy-manager/stargazers)
+* **GitHub_Stars**: ~34,400+ | **License**: MIT | **Primary Language**: JavaScript / Python / NGINX
 * **Architecture**: Containerized NGINX reverse proxy with a responsive, user-friendly Web UI.
 * **Key Features**: Point-and-click reverse proxy creation, free automatic SSL certificate generation via Let's Encrypt, HTTP/2 support, basic authentication access lists, and custom NGINX configuration snippets.
 * **Best For**: Home labs, small office networks, and developers seeking an easy visual control panel for reverse proxy management.
 
-### 6. [NGINX Open Source](https://github.com/nginx/nginx) [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
-* **GitHub Stars**: ~31,800+ | **License**: BSD-2-Clause | **Primary Language**: C
+### 6. [NGINX Open Source](https://github.com/nginx/nginx) [![GitHub_Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
+* **GitHub_Stars**: ~31,800+ | **License**: BSD-2-Clause | **Primary Language**: C
 * **Architecture**: Asynchronous, event-driven, single-threaded master-worker architecture.
 * **Key Features**: Industry-standard HTTP/1.1, HTTP/2, HTTP/3, and TCP/UDP stream reverse proxying; robust static content caching; gzip and Brotli compression; and Lua/njs scripting capabilities.
 * **Best For**: High-concurrency web serving, static edge caching, and predictable Layer 4/7 reverse proxying with minimal memory overhead.
 
-### 7. [Consul](https://github.com/hashicorp/consul) [![GitHub stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
-* **GitHub Stars**: ~30,000+ | **License**: BSL / MPL-2.0 | **Primary Language**: Go
+### 7. [Consul](https://github.com/hashicorp/consul) [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers)
+* **GitHub_Stars**: ~30,000+ | **License**: BSL / MPL-2.0 | **Primary Language**: Go
 * **Architecture**: Multi-datacenter service discovery, distributed key-value store, and service mesh.
 * **Key Features**: Real-time service health checking, dynamic DNS interface, automated mTLS service-to-service communication with intentions-based RBAC, and seamless multi-cloud federation across VMs and Kubernetes.
 * **Best For**: Hybrid infrastructures spanning bare metal, traditional virtual machines, and container clusters.
 
-### 8. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
-* **GitHub Stars**: ~29,000+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: C++
+### 8. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
+* **GitHub_Stars**: ~29,000+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: C++
 * **Architecture**: High-performance, low-footprint L4/L7 proxy and communication bus designed for modern service-oriented architectures.
 * **Key Features**: Dynamic configuration via xDS APIs (LDS, RDS, CDS, EDS), first-class HTTP/2 and gRPC support, advanced load balancing (zone-aware, consistent hashing), deep observability, WebAssembly (Wasm) filter extensions, and native AI/LLM streaming token rate limiting.
 * **Best For**: Cloud-native data planes, foundation for custom API gateways, and sidecar proxies in Kubernetes service meshes.
 
-### 9. [Cilium Service Mesh](https://github.com/cilium/cilium) [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
-* **GitHub Stars**: ~25,600+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Go / C (eBPF)
+### 9. [Cilium Service Mesh](https://github.com/cilium/cilium) [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+* **GitHub_Stars**: ~25,600+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Go / C (eBPF)
 * **Architecture**: eBPF-powered networking, security, observability, and sidecarless service mesh.
 * **Key Features**: Replaces kube-proxy with kernel-level eBPF routing; enforces Layer 3 to Layer 7 network security policies; terminates TLS at the kernel socket layer; and provides sidecar-free ingress and service mesh capabilities with zero pod injection overhead.
 * **Best For**: High-throughput, latency-critical Kubernetes clusters where sidecar resource taxation and hop latencies cannot be tolerated.
 
-### 10. [Apache APISIX](https://github.com/apache/apisix) [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
-* **GitHub Stars**: ~17,200+ | **License**: Apache-2.0 | **ASF Top-Level** | **Primary Language**: Lua / Go
+### 10. [Apache APISIX](https://github.com/apache/apisix) [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
+* **GitHub_Stars**: ~17,200+ | **License**: Apache-2.0 | **ASF Top-Level** | **Primary Language**: Lua / Go
 * **Architecture**: Cloud-native API gateway built on NGINX and OpenResty, utilizing etcd for distributed configuration consensus.
 * **Key Features**: Dynamic routing and hot-reloading without service restarts, multi-language plugin runners (Go, Python, Java, Wasm), automated gRPC-to-JSON transcoding, and out-of-the-box OpenTelemetry integration.
 * **Best For**: Enterprise teams seeking open governance under the Apache Software Foundation with dynamic etcd-backed routing.
 
-### 11. [Linkerd2](https://github.com/linkerd/linkerd2) [![GitHub stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)
-* **GitHub Stars**: ~11,500+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Rust / Go
+### 11. [Linkerd2](https://github.com/linkerd/linkerd2) [![GitHub_Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers)
+* **GitHub_Stars**: ~11,500+ | **License**: Apache-2.0 | **CNCF Graduated** | **Primary Language**: Rust / Go
 * **Architecture**: Ultralight, security-first service mesh engineered explicitly for Kubernetes.
 * **Key Features**: Ultra-fast, memory-safe data plane (`linkerd2-proxy`) written in Rust; zero-configuration mutual TLS (mTLS); sub-millisecond p99 latency overhead; automatic retry and timeout budgets; and instant Golden Metrics (success rate, latency, throughput).
 * **Best For**: Teams demanding production simplicity, memory safety, and minimal operational overhead without complex CRD sprawl.
 
-### 12. [Tyk Gateway](https://github.com/TykTechnologies/tyk) [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
-* **GitHub Stars**: ~10,800+ | **License**: MPL-2.0 | **Primary Language**: Go
+### 12. [Tyk Gateway](https://github.com/TykTechnologies/tyk) [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
+* **GitHub_Stars**: ~10,800+ | **License**: MPL-2.0 | **Primary Language**: Go
 * **Architecture**: Independent, battery-included API Gateway written from scratch in Go.
 * **Key Features**: Native REST, GraphQL, and gRPC engine with zero third-party web server dependencies; built-in quota management, rate limiting, token authentication, and JavaScript / Python / Go middleware plugins.
 * **Best For**: Organizations prioritizing pure Go deployments, unified GraphQL federation, and multi-tenant developer portals.
 
-### 13. [MetalLB](https://github.com/metallb/metallb) [![GitHub stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)
-* **GitHub Stars**: ~8,300+ | **License**: Apache-2.0 | **Primary Language**: Go
+### 13. [MetalLB](https://github.com/metallb/metallb) [![GitHub_Stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)
+* **GitHub_Stars**: ~8,300+ | **License**: Apache-2.0 | **Primary Language**: Go
 * **Architecture**: Bare-metal network load-balancer implementation for Kubernetes clusters.
 * **Key Features**: Enables `type: LoadBalancer` services on non-cloud Kubernetes installations using standard routing protocols: Layer 2 (ARP/NDP) mode with leader election or Layer 3 (BGP) routing for true load-spreading and failover.
 * **Best For**: On-premise enterprise data centers, edge computing nodes, and colocation Kubernetes deployments.
 
-### 14. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
-* **GitHub Stars**: ~6,900+ | **License**: GPL-2.0 | **Primary Language**: C
+### 14. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub_Stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
+* **GitHub_Stars**: ~6,900+ | **License**: GPL-2.0 | **Primary Language**: C
 * **Architecture**: Single-threaded event-driven engine with multi-threading support engineered for extreme packet-forwarding throughput.
 * **Key Features**: 13+ balancing algorithms (round-robin, least connections, consistent hash), advanced Layer 4/7 health checking, Data Plane API for dynamic configuration, and proven benchmark leadership in Kubernetes Ingress (~42,000 req/s).
 * **Best For**: High-traffic production websites, payment gateways, and platform engineers who prioritize raw throughput and determinism.
 
-### 15. [KrakenD / Lura Project](https://github.com/luraproject/lura) [![GitHub stars](https://img.shields.io/github/stars/luraproject/lura?style=social&color=white)](https://github.com/luraproject/lura/stargazers)
-* **GitHub Stars**: ~6,800+ | **License**: Apache-2.0 | **Linux Foundation** | **Primary Language**: Go
+### 15. [KrakenD / Lura Project](https://github.com/luraproject/lura) [![GitHub_Stars](https://img.shields.io/github/stars/luraproject/lura?style=social&color=white)](https://github.com/luraproject/lura/stargazers)
+* **GitHub_Stars**: ~6,800+ | **License**: Apache-2.0 | **Linux Foundation** | **Primary Language**: Go
 * **Architecture**: Stateless, ultra-performant API Gateway framework with linear horizontal scalability.
 * **Key Features**: Zero-database architecture; merges and aggregates multiple backend microservices into single client responses; removes response fields; and handles over 30,000 req/s per core with minimal memory footprint.
 * **Best For**: Backend-for-Frontend (BFF) patterns and high-throughput microservice aggregation layers.
 
-### 16. [Emissary-Ingress](https://github.com/emissary-ingress/emissary) [![GitHub stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)
-* **GitHub Stars**: ~4,500+ | **License**: Apache-2.0 | **CNCF Incubating** | **Primary Language**: Go / Python
+### 16. [Emissary-Ingress](https://github.com/emissary-ingress/emissary) [![GitHub_Stars](https://img.shields.io/github/stars/emissary-ingress/emissary?style=social&color=white)](https://github.com/emissary-ingress/emissary/stargazers)
+* **GitHub_Stars**: ~4,500+ | **License**: Apache-2.0 | **CNCF Incubating** | **Primary Language**: Go / Python
 * **Architecture**: Kubernetes-native API gateway and ingress controller built on Envoy Proxy.
 * **Key Features**: Fully declarative Kubernetes CRDs (`Mapping`, `Listener`, `Host`), automatic TLS termination with cert-manager integration, OAuth2/OIDC authentication filters, and canary releases.
 * **Best For**: GitOps-driven Kubernetes edge routing where developers manage ingress configurations via native Kubernetes manifests.
 
-### 17. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
-* **GitHub Stars**: ~4,000+ | **License**: BSD-2-Clause | **Primary Language**: C
+### 17. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub_Stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
+* **GitHub_Stars**: ~4,000+ | **License**: BSD-2-Clause | **Primary Language**: C
 * **Architecture**: Web application accelerator and high-performance HTTP reverse caching proxy.
 * **Key Features**: Translates routing rules written in Varnish Configuration Language (VCL) into C code compiled directly into native binaries at runtime. Unlocks 300x acceleration for static and dynamic API caching.
 * **Best For**: Content delivery acceleration, high-volume publishing sites, and heavily read-skewed API endpoints.
 
-### 18. [Kuma](https://github.com/kumahq/kuma) [![GitHub stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
-* **GitHub Stars**: ~4,000+ | **License**: Apache-2.0 | **CNCF Sandbox** | **Primary Language**: Go
+### 18. [Kuma](https://github.com/kumahq/kuma) [![GitHub_Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers)
+* **GitHub_Stars**: ~4,000+ | **License**: Apache-2.0 | **CNCF Sandbox** | **Primary Language**: Go
 * **Architecture**: Universal multi-zone service mesh built on top of Envoy Proxy by the Kong team.
 * **Key Features**: Native support for both containerized (Kubernetes) and non-containerized (VMs, bare metal) environments under a single control plane. Multi-zone cross-cluster communication, automated mTLS, and zero-trust policies.
 * **Best For**: Enterprise teams operating hybrid workloads where traditional VMs must seamlessly interconnect with Kubernetes pods.
 
-### 19. [HAProxy Kubernetes Ingress Controller](https://github.com/haproxytech/kubernetes-ingress) [![GitHub stars](https://img.shields.io/github/stars/haproxytech/kubernetes-ingress?style=social&color=white)](https://github.com/haproxytech/kubernetes-ingress/stargazers)
-* **GitHub Stars**: ~870+ | **License**: Apache-2.0 | **Primary Language**: Go
+### 19. [HAProxy Kubernetes Ingress Controller](https://github.com/haproxytech/kubernetes-ingress) [![GitHub_Stars](https://img.shields.io/github/stars/haproxytech/kubernetes-ingress?style=social&color=white)](https://github.com/haproxytech/kubernetes-ingress/stargazers)
+* **GitHub_Stars**: ~870+ | **License**: Apache-2.0 | **Primary Language**: Go
 * **Architecture**: High-performance ingress controller leveraging the HAProxy Data Plane API.
 * **Key Features**: Kubernetes Gateway API compliance, dynamic backend pod discovery without config reloads, hardware-accelerated TLS termination, and enterprise DDoS mitigation.
 * **Best For**: Mission-critical Kubernetes clusters demanding HAProxy's industry-leading request throughput and deterministic p99 response times.
@@ -229,8 +229,8 @@ Contributions are enthusiastically welcomed! To suggest a new open-source proxy,
 2. **Create a topic branch**: `git checkout -b feat/add-service-mesh-tool`.
 3. **Add your entry** in [README.md](README.md) following the established format:
    - For SaaS tools: Include platform name, company valuation/size, starting price, and free tier limits.
-   - For Open-Source tools: Include name, stargazer badge (`style=social&color=white`), stars count, license, language, and core technical overview.
-   - Maintain descending sort order by valuation (SaaS) or star count (Open-Source).
+   - For Open-Source tools: Include name, stargazer badge (`style=social&color=white`), Stars_Count, license, language, and core technical overview.
+   - Maintain descending sort order by valuation (SaaS) or Stars_Count (Open-Source).
 4. **Submit a Pull Request** with a brief summary explaining the tool's architectural significance.
 
 ---
@@ -262,5 +262,5 @@ If this curated directory has helped your team, architecture evaluations, or pro
 ## ⚠️ Disclaimer
 
 - This directory is a **community-curated index** compiled for informational, educational, and architectural evaluation purposes.
-- Valuations, revenues, pricing tiers, and star counts are subject to market changes over time. Always verify current specifications directly with vendor pricing pages and repository releases.
+- Valuations, revenues, pricing tiers, and Stars_Counts are subject to market changes over time. Always verify current specifications directly with vendor pricing pages and repository releases.
 - No single proxy or service mesh fits every workload: simple single-server architectures may thrive on **Caddy** or standard **NGINX**, while distributed Kubernetes environments may mandate **Envoy**, **Istio**, or **Cilium**.
